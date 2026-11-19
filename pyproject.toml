@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dramatiq-sentinel"
-version = "1.0.4"
+version = "1.0.5"
 description = "Dramatiq Middleware for Redis Sentinel Setup"
 readme = "README.md"
 license = { text = "MIT" }
@@ -16,7 +16,7 @@ classifiers = [
 ]
 dependencies = [
     "dramatiq>=1.17.0",
-    "redis==5.0.8"
+    "redis==5.3.1"
 ]
 
 [tool.black]
